@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from utils.deepfake_detect import detect_deepfake_image
-from utils.video_utils import extract_audio, extract_frames
+from utils.video_utils import extract_audio_emotions, extract_frames
 from utils.emotion_check import check_emotional_consistency
 import os
 
