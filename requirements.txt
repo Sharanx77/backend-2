@@ -1,6 +1,7 @@
 flask
 numpy
 opencv-python
+librosa
 tensorflow
 pillow
 keras
